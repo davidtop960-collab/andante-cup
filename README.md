@@ -1,28 +1,15 @@
-# ANDANTE CUP — Website v3
+# ANDANTE CUP — Website
 
-GitHub Pages website for the ANDANTE CUP.
+Current champion: S1 — Рустам — Paris Saint-Germain F.C.
 
-## How to update the tournament
+## How to add the next champion
 
-Open `script.js` on GitHub and press the ✏️ Edit button.
+Open `script.js` on GitHub → ✏️ Edit.
 
-### Add a champion
-Example:
-`{ season: 1, winner: "David", date: "20 September 2026", time: "20:00", score: "4 : 2" },`
+Add another object inside `champions`, for example:
 
-The newest season automatically becomes **CURRENT CHAMPION**.
+`{ season: 2, winner: "Andrei", club: "Real Madrid", date: "15 October 2026", time: "20:00", score: "3 : 1", photo: "andrei.jpg" }`
 
-### Add a champion photo
-Upload the image into the repository, for example `champion-photo.jpg`, then add:
-`photo: "champion-photo.jpg"`
+Upload the photo to the repository with the same filename, then Commit changes.
 
-### Add players
-Example:
-`{ name: "David", status: "CONFIRMED" },`
-
-After every change:
-1. Save/Commit changes.
-2. Wait a short moment.
-3. Refresh the website.
-
-No database or paid hosting is required.
+The newest season automatically becomes CURRENT CHAMPION.
