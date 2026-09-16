@@ -1,10 +1,28 @@
-# ANDANTE CUP
+# ANDANTE CUP — Website v3
 
-Free static championship-history website for ANDANTE CUP.
+GitHub Pages website for the ANDANTE CUP.
 
-Files: `index.html`, `style.css`, `script.js`, `andante-cup-poster.png`.
+## How to update the tournament
 
-To publish free with GitHub Pages: create a public repository, upload these files to its root, then open Settings → Pages → Deploy from a branch → `main` / `(root)` → Save.
+Open `script.js` on GitHub and press the ✏️ Edit button.
 
-To add a champion, edit `script.js` and add:
-`{ season: 1, winner: "PLAYER NAME", date: "20 September 2026", time: "20:00" },`
+### Add a champion
+Example:
+`{ season: 1, winner: "David", date: "20 September 2026", time: "20:00", score: "4 : 2" },`
+
+The newest season automatically becomes **CURRENT CHAMPION**.
+
+### Add a champion photo
+Upload the image into the repository, for example `champion-photo.jpg`, then add:
+`photo: "champion-photo.jpg"`
+
+### Add players
+Example:
+`{ name: "David", status: "CONFIRMED" },`
+
+After every change:
+1. Save/Commit changes.
+2. Wait a short moment.
+3. Refresh the website.
+
+No database or paid hosting is required.

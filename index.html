@@ -1,1 +1,70 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><meta name="theme-color" content="#070707"><title>ANDANTE CUP — Championship History</title><link rel="stylesheet" href="style.css"></head><body><div class="noise"></div><header class="hero"><nav class="nav"><div class="brand"><span>AC</span> ANDANTE CUP</div><a href="#history">HISTORY</a></nav><div class="hero-content"><p class="eyebrow">EA SPORTS FC 27 • OFFICIAL TOURNAMENT</p><h1>ANDANTE<br><em>CUP</em></h1><p class="hero-sub">MORE THAN A GAME. <strong>LEGENDS TOMORROW.</strong></p><a class="btn" href="#history">VIEW CHAMPIONSHIP HISTORY</a></div><div class="hero-poster"></div></header><main><section class="champion-section"><div class="section-label">CURRENT CHAMPION</div><div class="champion-card"><div class="belt-art">♛</div><div><p class="small">THE ONE WHO HOLDS THE BELT</p><h2 id="currentWinner">—</h2><p id="currentMeta">No champion recorded yet.</p></div><div class="season-badge"><span>SEASON</span><strong id="currentSeason">—</strong></div></div></section><section id="history" class="history"><div class="history-heading"><div><p class="section-label">THE ARCHIVE</p><h2>CHAMPIONSHIP<br><span>HISTORY</span></h2></div><p class="history-intro">Every season. Every champion. Every name that made history.</p></div><div id="championList" class="champion-list"></div></section><section class="quote"><p>GOOD PLAYERS<br><strong>BECOME CHAMPIONS.</strong></p></section></main><footer><div>ANDANTE CUP</div><div>EA SPORTS FC 27 TOURNAMENT</div><div>FOOTBALL LIVES HERE</div></footer><script src="script.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080808">
+  <title>ANDANTE CUP — Official Tournament</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="hero">
+    <nav class="nav">
+      <div class="brand"><span>AC</span> ANDANTE CUP</div>
+      <div class="nav-links">
+        <a href="#champion">CHAMPION</a>
+        <a href="#history">HISTORY</a>
+      </div>
+    </nav>
+
+    <div class="hero-content">
+      <p class="eyebrow">EA SPORTS FC 27 • OFFICIAL TOURNAMENT</p>
+      <h1>ANDANTE<br><em>CUP</em></h1>
+      <p class="hero-sub">MORE THAN A GAME. <strong>LEGENDS TOMORROW.</strong></p>
+      <a class="btn" href="#history">VIEW CHAMPIONSHIP HISTORY</a>
+    </div>
+    <div class="hero-poster"></div>
+  </header>
+
+  <main>
+    <section id="champion" class="champion-section">
+      <div class="section-label">CURRENT CHAMPION</div>
+      <div id="currentChampion" class="champion-card"></div>
+    </section>
+
+    <section id="history" class="history">
+      <div class="history-heading">
+        <div>
+          <p class="section-label">THE ARCHIVE</p>
+          <h2>CHAMPIONSHIP<br><span>HISTORY</span></h2>
+        </div>
+        <p class="history-intro">Every season. Every champion. Every name that made history.</p>
+      </div>
+      <div id="championList" class="champion-list"></div>
+    </section>
+
+    <section id="players" class="players-section">
+      <div class="section-label">THE CONTENDERS</div>
+      <div class="players-heading">
+        <h2>PLAYERS</h2>
+        <p>THE NAMES ENTERING THE CUP.</p>
+      </div>
+      <div id="playerGrid" class="player-grid"></div>
+    </section>
+    <section class="quote">
+      <span>“</span>
+      <p>GOOD PLAYERS<br><strong>BECOME CHAMPIONS.</strong></p>
+    </section>
+  </main>
+
+  <footer>
+    <div>ANDANTE CUP</div>
+    <div>EA SPORTS FC 27 TOURNAMENT</div>
+    <div>FOOTBALL LIVES HERE</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
