@@ -10,8 +10,16 @@ const tournament = {
       winner: "Рустам",
       club: "Paris Saint-Germain F.C.",
       photo: "rustam.jpg"
-    }
-  ]
+    },
+    {
+  season: 2,
+  winner: "Dava",
+  club: "Manchester City",
+  date: "23.08.2026",
+  score: "1:0",
+  photo: "dava.jpg"
+}
+  ],
 };
 
 const $ = id => document.getElementById(id);
